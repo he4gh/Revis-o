@@ -1,0 +1,248 @@
+/* configurações padrão */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/* mexendo nas tags */
+header{
+   width: 100%;
+   height: 15vh;
+   border: solid 3px black;
+   background-image: url(https://vozdabahia.com.br/wp-content/uploads/2025/07/Morango-do-Amor-Como-Fazer-a-Receita-que-Esta-Bombando-em-2025.webp);
+   background-size: contain;
+}
+header h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: white;
+    -webkit-text-stroke: 1.5px black;
+}
+
+
+main{
+   minheight: 100vh;
+   width: 100%;
+   border: solid 3px red;
+   background-image: url(https://img.wallpapic-br.com/i6252-823-47/medium/sobremesa-de-fruta-comida-local-frutas-imagem-de-fundo.jpg);
+   background-size: 100%;
+}
+h2{
+    background-color: rgb(255, 234, 0);
+    border-radius: 20px;
+    font-size: 30px;
+    width: 30%;
+    color: rgb(255, 0, 0);
+    -webkit-text-stroke: 0.5px black;
+    border: auto;
+}
+ul{
+    font-size: 30px;
+    background-image: url(https://temporealrj.com/wp-content/uploads/2025/07/1_morango_do_amor_capa-57371090-860x516.jpg);
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.7px rgb(242, 0, 255);
+    border-radius: 30px;
+    width: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main #mexerica{
+   border: solid 2px orange;
+   width: 50%;
+   margin: auto;
+   background-color: rgb(213, 175, 70);
+}
+main #mexerica h3,p{
+    text-align: center;
+    font-size: 30px;
+
+}
+main #mexerica img{
+    width: 80%;
+    height: 50vh;
+    display: block;
+    margin: auto;
+    padding: 30px;
+    border-radius: 50px;
+}
+main #mexerica img:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+main #mexerica a{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    text-decoration: none;
+    background-color: rgb(255, 191, 0);
+    color: rgb(255, 255, 255);
+    border: auto;
+    border-radius: 50px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+main #mexerica a:hover{
+    scale: 1.2;
+    color: white;
+    background-image: url(https://i.pinimg.com/originals/68/c5/3b/68c53bb8239febd3a5b6958b75a444d2.gif);
+}
+
+main #uva{
+    border: solid 2px rgb(0, 255, 30);
+    width: 50%;
+    margin: auto;
+    background-color: rgb(0, 179, 57);
+ }
+ main #uva h3,p{
+     text-align: center;
+     font-size: 30px;
+ }
+ main #uva img{
+     width: 80%;
+     height: 50vh;
+     display: block;
+     margin: auto;
+     padding: 30px;
+     border-radius: 50px;
+ }
+ main #uva a{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    text-decoration: none;
+    background-color: rgb(0, 255, 26);
+    color: rgb(0, 0, 0);
+    border: auto;
+    border-radius: 50px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+main #uva a:hover{
+    scale: 1.2;
+    color: white;
+    background-image: url(https://i.pinimg.com/originals/68/c5/3b/68c53bb8239febd3a5b6958b75a444d2.gif);
+}
+
+ main #limao{
+    border: solid 2px green;
+    width: 50%;
+    margin: auto;
+    background-color: rgb(176, 229, 3);
+ }
+ main #limao h3,p{
+     text-align: center;
+     font-size: 30px;
+ }
+ main #limao img{
+     width: 80%;
+     height: 50vh;
+     display: block;
+     margin: auto;
+     padding: 30px;
+     border-radius: 50px;
+ }
+ main #limao a{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    text-decoration: none;
+    background-color: rgb(72, 255, 0);
+    color: black;
+    border: auto;
+    border-radius: 50px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+main #limao a:hover{
+    scale: 1.2;
+    color: white;
+    background-image: url(https://i.pinimg.com/originals/68/c5/3b/68c53bb8239febd3a5b6958b75a444d2.gif);
+}
+
+ main #banana{
+    border: solid 2px rgb(171, 0, 0);
+    width: 50%;
+    margin: auto;
+    background-color: rgb(255, 0, 0);
+ }
+ main #banana h3,p{
+     text-align: center;
+     font-size: 30px;
+ }
+ main #banana img{
+     width: 80%;
+     height: 50vh;
+     display: block;
+     margin: auto;
+     padding: 30px;
+     border-radius: 50px;
+ }
+ main #banana a{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    text-decoration: none;
+    background-color: rgb(154, 0, 0);
+    color: rgb(255, 255, 255);
+    border: auto;
+    border-radius: 50px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+main #banana a:hover{
+    scale: 1.2;
+    color: white;
+    background-image: url(https://i.pinimg.com/originals/68/c5/3b/68c53bb8239febd3a5b6958b75a444d2.gif);
+}
+
+ main #carolina{
+    border: solid 2px orange;
+    width: 50%;
+    margin: auto;
+    background-color: rgb(213, 88, 88);
+ }
+ main #carolina h3,p{
+     text-align: center;
+     font-size: 30px;
+ }
+ main #carolina img{
+     width: 80%;
+     height: 50vh;
+     display: block;
+     margin: auto;
+     padding: 30px;
+     border-radius: 50px;
+ }
+ main #carolina a{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    text-decoration: none;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border: auto;
+    border-radius: 50px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+main #carolina a:hover{
+    scale: 1.2;
+    color: white;
+    background-image: url(https://i.pinimg.com/originals/68/c5/3b/68c53bb8239febd3a5b6958b75a444d2.gif);
+}
+
+
+
+footer{
+   height: 10vh;
+   width: 100%;
+   border: solid 3px green;
+   background-color: red;
+}
